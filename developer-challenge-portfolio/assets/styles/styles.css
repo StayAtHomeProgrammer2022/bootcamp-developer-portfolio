@@ -4,7 +4,7 @@
 
 body,
 html {
-    background-color: #D3A46E;
+    background-color: #71879a;
 }
 
 h1,
@@ -81,15 +81,21 @@ h6 {
 
 #about {
     margin-top: 10em;
-    border: 1px solid #eee;
-    background-color: #DF7D60;
+    border: 1px solid #686573;
+    background-color: #d8b9aa;
     padding-bottom: 1em;
+    border-top:solid 2px #d6d7dc;
+    border-bottom:solid 2px #d6d7dc;
 }
 
 #about img {
     max-width: 15em;
     position: relative;
     bottom: 7.5em;
+    
+}
+.profile-photo{
+    border:solid 2px #d6d7dc;
 }
 
 #about .details {
@@ -97,7 +103,7 @@ h6 {
 }
 
 #about h2 {
-    color: #646464;
+    color: #d6d7dc;
     font-size: 3.8em;
     padding-bottom: 1em;
 }
@@ -119,9 +125,9 @@ h6 {
 }
 
 .cta .cta-button {
-    color: #cc4b37;
+    color: #686573;
     text-transform: uppercase;
-    border: 2px solid rgba(255, 103, 68, 0.91);
+    border: 2px solid #b1c5d4;
     border-radius: 50px;
     background: white;
 }
@@ -129,7 +135,7 @@ h6 {
 .cta .cta-button:hover,
 .cta .cta-button:focus {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
-    background-color: rgba(255, 103, 68, 0.91);
+    background-color: #b1c5d4;
     color: white;
 }
 
@@ -138,9 +144,9 @@ h6 {
 }
 
 .fa {
-    font-size: 1.2em;
+    font-size: 1.29em;
     padding: 0.1em 0.4em;
-    color: #8a8a8a;
+    color: #686573;
 }
 
 .fa:hover {
@@ -151,27 +157,27 @@ h6 {
 /*** Experience ***/
 
 #experience {
-    background-color: #4c6d86;
+    background-color: #71879a;
     padding: 6em 4em 5.6em;
 }
 
 #experience h2 {
-    color: #fff;
+    color: #d6d7dc;
     margin-bottom: .7em;
 }
 
 #experience .tag-line {
-    color: white;
+    color: #f8f8ff;
     font-size: 1.4em;
 }
 
 #experience i {
-    color: rgb(255, 138, 89);
+    color: #d8b9aa;
     font-size: 4em;
 }
 
 #experience h3 {
-    color: #fff;
+    color: #d6d7dc;
 }
 
 .experience-topics p {
@@ -182,7 +188,7 @@ h6 {
 
 .experience-topics ul li {
     list-style: none;
-    color: #bbd2ff;
+    color: #b1c5d4;
     font-family: "Maven pro", sans-serif;
     font-weight: 500;
 }
@@ -192,16 +198,18 @@ h6 {
 
 #work {
     padding: 6em 4em 3em;
-    background-color: #eed9bd;
+    background-color: #686573;
+    border-top:solid 2px #d6d7dc;
+    border-bottom:solid 2px #d6d7dc;
 }
 
 #work h2 {
-    color: #FF6945;
+    color: #90C4C4;
     margin-bottom: .7em;
 }
 
 #work .tag-line {
-    color: #767779;
+    color: #d6d7dc;
     font-size: 1.4em;
     margin-bottom: 4em;
 }
@@ -211,7 +219,7 @@ h6 {
 }
 
 .details h3 {
-    color: #738182;
+    color: #90C4C4;
     text-transform: uppercase;
 }
 
@@ -221,16 +229,19 @@ h6 {
     margin: 2em 0 -0.1em;
     font-family: "Maven pro", sans-serif;
     font-weight: 500;
-    color: #ff7654;
+    color: #d8b9aa;
 }
 
 .details i {
-    color: #ff7654;
+    color: #d8b9aa;
     margin-right: 1em;
 }
-
+.columns img{
+    border-radius:15px;
+    border:solid 3px #90C4C4;
+}
 .details p {
-    color: #738182;
+    color: #d6d7dc;
     font-family: "Maven pro", sans-serif;
     font-weight: 500;
     font-size: 1.2em;
@@ -240,16 +251,16 @@ h6 {
 .details a,
 .details a:link,
 .details a:active {
-    color: rgba(255, 103, 68, 0.91);
-    border: 2px solid rgba(255, 103, 68, 0.91) !important;
-    background-color: #fff;
+    color: #686573;
+    border: 3px solid #d8b9aa !important;
+    background-color: rgba(214, 215, 220,.5);
 }
 
 .details a:hover,
 .details a:focus {
     /*box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);*/
-    background-color: rgba(255, 103, 68, 0.91) !important;
-    color: #fff;
+    background-color: rgba(216,185,170,.5) !important;
+    color: #d6d7dc;
 }
 
 
@@ -260,11 +271,11 @@ h6 {
 }
 
 #teaching h2 {
-    color: #595959;
+    color: #686573;
 }
 
 #teaching .tag-line {
-    color: #848282;
+    color: #686573;
     font-size: 1.4em;
 }
 
@@ -278,8 +289,10 @@ h6 {
 /*** Footer Call-to-action ***/
 
 #footer-cta {
-    background-color: #DF7D60;
+    background-color: #b1c5d4;
     padding: 6em 4em 5.6em;
+    border-top:solid 2px #686573;
+    border-bottom:solid 2px #686573;
 }
 
 #footer-cta h2 {
@@ -287,7 +300,7 @@ h6 {
 }
 
 #footer-cta p {
-    color: #fff;
+    color: #71879a;
     font-family: "Maven pro", sans-serif;
     font-weight: 500;
     font-size: 1.2em;
@@ -305,7 +318,7 @@ h6 {
 
 #footer-cta a:hover {
     background: #fff;
-    color: rgba(255, 103, 68, 0.91);
+    color:#b1c5d4;
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
 }
 
@@ -317,7 +330,7 @@ h6 {
 }
 
 #footer #logo {
-    background-color: rgba(255, 103, 68, 0.91);
+    background-color:#d8b9aa;
     border-radius: 50%;
     color: #fff;
     padding: .4em;
@@ -331,7 +344,7 @@ h6 {
     margin-top: 1.6em;
     font-family: "Maven pro", sans-serif;
     font-weight: 500;
-    color: #7d7d7d;
+    color: #686573;
 }
 
 .profile-photo {
